@@ -9,7 +9,11 @@
 
 5、个人联系方式
 Location:ShangHai,Ctrip
+
 QQ:442497994 
+
 Mobile：15221028650
+
 Weibo：http://weibo.com/1231495297
+
 Website:http://www.pernav.com/(太懒，没打理)
