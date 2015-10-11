@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script>
+/**
+ * [description]
+ * @return {[type]} [description]
+ */
+function(){
+	$().on('click', '.selector', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+	});
+
+}
+</script>	
+</html>
