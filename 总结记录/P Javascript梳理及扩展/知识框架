@@ -480,7 +480,7 @@ b.当按键后,不希望按键继续传递给如HTML文本框对象时,可以取
             e.preventDefault();
         //IE中阻止函数器默认动作的方式
         }else{
-            window.event.returnValue = false;//即return false;
+            window.event.returnValue = false;
 }
  }
 
