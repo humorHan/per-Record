@@ -474,15 +474,15 @@ a.阻止事件冒泡
 }
 b.当按键后,不希望按键继续传递给如HTML文本框对象时,可以取消返回值.即停止事件默认行为
 //阻止浏览器的默认行为
- function stopDefault( e ) {
+function stopDefault( e ) {
         //阻止默认浏览器动作(W3C)
         if ( e && e.preventDefault ){
             e.preventDefault();
         //IE中阻止函数器默认动作的方式
         }else{
             window.event.returnValue = false;
+    }
 }
- }
 
 3、对象，类，继承   对象部分
 一、对象的定义，及构造函数 ：Javascript 面向对象编程（一）：封装
@@ -779,11 +779,6 @@ console.log(Doctor.nation + Doctor.career);//中国医生
 
 4、http请求和ajax 以及ajax跨域
 1、HTTP请求
-
-
-
-
-
 超文本传输协议（HTTP）的设计目的是保证客户机与服务器之间的通信。
 HTTP 的工作方式是客户机与服务器之间的请求-应答协议。
 两种 HTTP 请求方法：GET 和 POST
