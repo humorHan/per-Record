@@ -198,7 +198,6 @@ $("#block2").animate({marginLeft:50});
       s.padding = '5px';
       s.color = 'blue';
       s.padding = '6px';
-
       tmp = computed.backgroundColor;
       tmp = computed.backgroundImage;
       tmp = computed.backgroundAttachment;
